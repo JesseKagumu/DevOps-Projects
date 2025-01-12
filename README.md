@@ -1,4 +1,4 @@
-Welcome to my DevOps Project on building a weather dashboard using the Open Weather API and storing data in an AWS S3 bucket
+# Welcome to my DevOps Project on building a weather dashboard using the Open Weather API and storing data in an AWS S3 bucket
 
 Prerequisites: An access key from the Open Weather API and AWS credentials (access key ID and secret key).
 
