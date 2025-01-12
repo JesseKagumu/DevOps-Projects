@@ -28,24 +28,24 @@ README.md: A Markdown file that serves as the documentation or introduction to t
 2. Run git init to initialize a new Git repository.
 3. Run git branch -M main to change your main branch name to main.
 4. Run the following commands:
-    echo ".env" >> .gitignore
-    echo "__pycache__/" >> .gitignore
-    echo "*.zip" >> .gitignore
+   echo ".env" >> .gitignore
+   echo "__pycache__/" >> .gitignore
+   echo "*.zip" >> .gitignore
 (The above commands exclude environment variables, Python bytecode files and zip files from being tracked or pushed to a GitHub Repository)
 
-5. Run the following commands:
-    echo "boto3==1.26.137" >> requirements.txt
-    echo "python-dotenv==1.0.0" >> requirements.txt
-    echo "requests==2.28.2" >> requirements.txt
+6. Run the following commands:
+   echo "boto3==1.26.137" >> requirements.txt
+   echo "python-dotenv==1.0.0" >> requirements.txt
+   echo "requests==2.28.2" >> requirements.txt
  ('boto3' is the AWS SDK for Python, 'python-dotenv' manages our environment variables, and 'requets' will help us make HTTP requests to the weather API.)
 
-6. Run the following command to install the libraries and dependencies:
+7. Run the following command to install the libraries and dependencies:
     pip intall -r requirements.txt
 
-7. Configure your AWS Credentials with the following command:
+8. Configure your AWS Credentials with the following command:
     aws configure
 
-8. Configure environment variables (.env) with the following commands:
+9. Configure environment variables (.env) with the following commands:
   echo "OPENWEATHER_API_KEY=replace_with_your_api_key" >> .env
   echo "AWS_BUCKET_NAME=replace_with_your_bucket_name" >> .env
 
