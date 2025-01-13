@@ -35,12 +35,16 @@ README.md: A Markdown file that serves as the documentation or introduction to t
 2. Run git init to initialize a new Git repository.
 3. Run git branch -M main to change your main branch name to main.
 4. Run the following commands:
+
    echo ".env" >> .gitignore
+
    echo "__pycache__/" >> .gitignore
+
    echo "*.zip" >> .gitignore
+   
 (The above commands exclude environment variables, Python bytecode files and zip files from being tracked or pushed to a GitHub Repository)
 
-5. Run the following commands:
+6. Run the following commands:
    
    echo "boto3==1.26.137" >> requirements.txt
 
